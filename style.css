@@ -1,0 +1,198 @@
+
+
+#resultsTable{
+    display: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  .navbar-bottomline{
+    box-shadow: 1px 3px 3px #e7e7e7;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar{
+    height: 57px;
+    width: 1300px;
+    min-width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar-leftside{
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-rightside{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .logo{
+   max-width: 125px; 
+   
+  }
+
+
+  .logocontainer{
+ width: 40px;
+ 
+  }
+  
+  
+  .container-bookmark{
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .container-search{
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .container-bell{
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .fa-magnifying-glass {
+    font-size: 20px;
+  }
+  
+  .fa-solid{
+    font-weight: 900;
+  }
+  
+  .bookmark-navbar {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .fa-regular, .far {
+    font-weight: 400;
+  }
+  
+  .bell {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .button-navbar {
+    width: 170px;
+    height: 33px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #242424;
+    cursor: pointer;
+  }
+  
+  .user-logo {
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    border-bottom: solid 1px black;
+    position: relative;
+  }
+
+  h1:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(254,216,11,255);
+  }
+
+
+  label, input, button {
+    margin-bottom: 10px;
+  }
+
+  label{
+    font-size: 20px;
+    font-weight: bolder;
+
+  }
+
+
+
+  #resultsTable {
+    margin-top: 20px;
+    background-color: white;
+    border-collapse: collapse;
+  }
+
+  #resultsTable td, 
+  #resultsTable th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  #resultCount {
+    margin-top: 10px;
+    border: solid 1px black;
+    background-color: red;
+    
+  }
+
+
+th, tr{
+    color: black;
+}
+
+  #searchButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #clearButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 40%;
+    padding-left: 250px;
+    padding-top: 50px;
+  }
